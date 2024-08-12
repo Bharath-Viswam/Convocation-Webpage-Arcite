@@ -1,0 +1,27 @@
+.logowt{
+    background-image:url("./ARCITE PVT LTD BLACK.png")
+}
+.tst{
+    display:flex;
+    justify-content:center;
+}
+  .icon1{
+    color:blue!important;
+    padding-right:25px;
+   
+  }
+  .icon2{
+    padding-right:30px;
+    color:blue!important;
+  }
+  .icon3{
+    color:blue!important;
+  }
+  
+  a{
+    text-decoration:none;
+  }
+.social-media{
+  background-color:rgb(61, 58, 58);
+ 
+}
