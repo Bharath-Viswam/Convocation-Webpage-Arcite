@@ -16408,6 +16408,7 @@ screen and (min-width: 40em) {
     flex-wrap: wrap
 }
 
+
 .copyright {
     border-bottom: 7px solid #136f6e;
     display: inline-block;
@@ -16418,6 +16419,18 @@ screen and (min-width: 40em) {
     text-decoration: none
 }
 
+@media only screen and (max-width: 767px) {
+    .copyright {
+        /* Your mobile-specific styles */
+        border-bottom: 7px solid #136f6e;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 36px;
+        margin-bottom: 14px;
+        padding-bottom: 28px;
+        text-decoration: none;
+    }
+}
 .suggest-improvement {
     text-align: left
 }
@@ -18098,5 +18111,15 @@ screen and (max-width: 63.99875em) {
 
     .mdc-tab-scroller .mdc-tab-scroller__scroll-area::after {
         background: unset
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    p {
+        /* Your mobile-specific styles */
+       
+        line-height:normal !important;
+        font-size:15px!important;
+        
     }
 }
