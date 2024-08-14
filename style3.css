@@ -9397,7 +9397,7 @@ screen and (min-width: 64em) {
 .section-header-divider {
     background-color: #ec0836;
     border: 0;
-    height: 12px;
+    height: 1px;
     margin: 25px auto;
     width: 150px
 }
